@@ -16,15 +16,15 @@
 
         <Menu>
             <MenuItem Header="Файл">
-                <MenuItem Header="Вход в систему"/>
-                <MenuItem Header="Выход из системы"/>
-                <MenuItem Header="Закрыть приложение"/>
+                <MenuItem Name="LoginMi" Header="Вход в систему" Click="LoginMi_Click"/>
+                <MenuItem Name="LogoutMi" Header="Выход из системы" Click="LogoutMi_Click"/>
+                <MenuItem  Name="CloseMi" Header="Закрыть приложение" Click="CloseMi_Click"/>
             </MenuItem>
-            <MenuItem Header="Библиотека">
-                <MenuItem Header="Просмотр каталога"/>
-                <MenuItem Header="Управление читателями"/>
-                <MenuItem Header="Управление абонентом"/>
-                <MenuItem Header="Отчет"/>
+            <MenuItem Name="Library" Header="Библиотека">
+                <MenuItem Name="BrowseCataLogMi" Header="Просмотр каталога" Click="BrowseCataLogMi_Click"/>
+                <MenuItem Name="ManageCustomersMi" Header="Управление читателями"  Click="ManageCustomersMi_Click" />
+                <MenuItem Name="CirculationMi" Header="Управление абонентом" Click="CirculationMi_Click"/>
+                <MenuItem Name="ReportsMi"  Header="Отчет" Click="ReportsMi_Click"/>
             </MenuItem>
         </Menu>
         
