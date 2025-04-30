@@ -13,7 +13,7 @@ namespace BookMaster
         {
             InitializeComponent();
             LogoutMi.Visibility = Visibility.Collapsed;
-            Library.Visibility = Visibility.Collapsed;
+            Library.Visibility = Visibility.Visible;
 
         }
 
@@ -22,6 +22,7 @@ namespace BookMaster
             // Для реализации оконной навигации нужно:
             // 1) Cоздать экземпляр окна,которое требуется открыть
             LoginWindow loginWindow = new LoginWindow();
+
             // 2) У экземпляра окна вызвать метод Show() или ShowDialog();
             loginWindow.ShowDialog();
         }
